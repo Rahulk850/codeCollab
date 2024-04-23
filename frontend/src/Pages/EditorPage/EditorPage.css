@@ -1,0 +1,80 @@
+.editorpage-logo-part{
+    background-color: #131418;
+}
+.editorpage-logo{
+    width: 200px;
+    margin: 1rem ;
+}
+.editorpage-logo-part{
+    display: flex;
+    justify-content: space-between;
+}
+.clientsList {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.client {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    color: white;
+}
+.btnn {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    height: 50px;
+}
+.editorpage-btn{
+    display: flex;
+    align-items: center;
+}
+.leaveBtn{
+    background: #4aed88;
+    width: 100px;
+    margin-left: auto;
+    margin-left: 10px;
+}
+.leaveBtn:hover {
+    background: #2b824c;
+}
+.CodeMirror{
+    min-height: 45vh;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-top: 20px;
+}
+.editorpage-input-part{
+    display: flex;
+}
+.input-part{
+    width: 33.33%;
+}
+.html-heading, .css-heading, .js-heading{
+   padding: 5px;
+   background-color: rgb(40, 38, 38);
+   color: white;
+}
+.html-logo{
+    background-color: #FF3C41;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+.css-logo{
+    background-color: #0EBEFF;
+    padding: 1px 7px;
+    border-radius: 5px;
+}
+.js-logo{
+    background-color: #FCD000;
+    padding: 1px 7px;
+    border-radius: 5px;
+}
