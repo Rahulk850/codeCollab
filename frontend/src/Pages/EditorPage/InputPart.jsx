@@ -146,7 +146,7 @@ const InputPart = ({
           <textarea id='codeEditor-html'></textarea>
         </div>
         <div className='input-part'>
-        <p className='css-heading'> <span className='css-logo' >*</span> CSS</p>
+        <p className='css-heading'><span className='css-logo' >*</span> CSS</p>
           <textarea id='codeEditor-css'></textarea>
         </div>
         <div className='input-part'>

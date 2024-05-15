@@ -19,13 +19,14 @@ const OutputPart = ({htmlcode, csscode, jscode}) => {
 
   return (
     <div className="editorpage-output-part">
+        <button className='output-btn btn'>Run</button>
        <iframe 
         srcDoc={src}
         title='Output'
         sandbox='allow-scripts'
         frameBorder={0}
         width="100%"
-        height="100%"
+        height="750"
        />
     </div>
   )
