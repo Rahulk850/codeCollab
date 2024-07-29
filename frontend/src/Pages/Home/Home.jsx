@@ -42,15 +42,15 @@ const Home = () => {
              onChange={e=>setRoomId(e.target.value)}/>
              
             <input type="text"
-             className='home-input home-input-username' placeholder='USERNAME'
+             className='home-input home-input-username' placeholder='Enter Your USERNAME'
              value={username}
             onChange={(e)=> setUsername(e.target.value)}
              />
          </div>
           <button className='btn home-btn' onClick={handleJoinRoom} >Join</button>
-          <p className='home-invitation' >If you don't have an invitation then create <a className='home-anchor-tag' onClick={generateRoomId} >new room</a> </p>
+          <p className='home-invitation' >If you don't have a <strong>Room ID</strong> then Create <a className='home-anchor-tag' onClick={generateRoomId} >new room</a> </p>
          </div>
-         <h3 className='home-footer' >Build with 🤍 by <a className='home-anchor-tag' href="">KRISH</a></h3>  
+         <h3 className='home-footer' >Build with 🤍 by <a className='home-anchor-tag' target='_blank' href="https://main--krish2643-portfolio.netlify.app/">KRISH</a></h3>  
     </div>
   )
 }
