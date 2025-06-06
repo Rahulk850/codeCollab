@@ -50,7 +50,7 @@ const Home = () => {
           <button className='btn home-btn' onClick={handleJoinRoom} >Join</button>
           <p className='home-invitation' >If you don't have a <strong>Room ID</strong> then Create <a className='home-anchor-tag' onClick={generateRoomId} >new room</a> </p>
          </div>
-         <h3 className='home-footer' >Build with 🤍 by <a className='home-anchor-tag' target='_blank' href="https://main--krish2643-portfolio.netlify.app/">KRISH</a></h3>  
+         <h3 className='home-footer' >Build with 🤍 by <a className='home-anchor-tag' target='_blank'>RAHUL</a></h3>  
     </div>
   )
 }
